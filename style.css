@@ -1,0 +1,90 @@
+*{
+    /* outline: 1px solid red; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#1b95c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+      
+}
+.principal{
+    background-color: white;
+    width: 500px;
+    display: flex;
+    border-radius:7px;
+    box-shadow: 2px 3px 36px 0px rgba(0,0,0,0.52);
+-webkit-box-shadow: 2px 3px 36px 0px rgba(0,0,0,0.52);
+-moz-box-shadow: 2px 3px 36px 0px rgba(0,0,0,0.52);
+font-family: 'Ubuntu', sans-serif;
+margin: 20px;
+}
+.caja{
+    width: 70%;
+}
+.caja-fondo{
+    width: 30%;
+}
+img{
+    width: 100%; 
+    height: 100%;
+    box-shadow: 8px 8px 52px -2px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 8px 8px 52px -2px rgba(0,0,0,0.54);
+    -moz-box-shadow: 8px 8px 52px -2px rgba(0,0,0,0.54);
+    overflow: hidden;
+    border-radius: 0px 7px 7px 0px;
+}
+.boton{
+    background:#1b95c4;
+    color:white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius:7px;
+    /* box-shadow: 2px 3px 36px 0px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 2px 3px 36px 0px rgba(0,0,0,0.52);
+    -moz-box-shadow: 2px 3px 36px 0px rgba(0,0,0,0.52); */
+    box-shadow: 8px 8px 52px -2px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 8px 8px 52px -2px rgba(0,0,0,0.54);
+    -moz-box-shadow: 8px 8px 52px -2px rgba(0,0,0,0.54);
+    transition: all ease 0.5s;
+    background: #1b95c4;
+    background: linear-gradient(36deg,#1b95c4 30%, #3fb1dc 60%, #74ccee 90%);
+    background: -webkit-linear-gradient(36deg,#1b95c4 30%, #3fb1dc 60%, #74ccee 90%);
+    background: -moz-linear-gradient(36deg,#1b95c4 30%, #3fb1dc 60%, #74ccee 90%);
+    margin-bottom: 20px;
+}
+.contenido-formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 30px 30px 30px;
+}
+.titulo{
+    margin-bottom: 20px;
+    border-left: 6px #1b95c4 solid;
+    padding-left: 4px;
+}
+.tucorreo{
+    margin-bottom: 20px ;
+    color:#acacb0
+}
+.tucontraseña{
+    margin-bottom: 20px ;
+    color:#acacb0
+}
+.olvidastetucontraseña{
+    margin-bottom: 20px ;
+    color:black;
+}
+.info1{
+    margin-bottom: 20px;
+    border-color: #e2e6e9;
+    border-top-color: #e2e6e9;
+    height: 30px;
+    border-radius: 4px;
+}
